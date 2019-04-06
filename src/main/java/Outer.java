@@ -20,7 +20,7 @@ public class Outer {
     }
 
     public static abstract class M1 implements MyBase  {
-        public Builder2 newBuilder() { return null; }
+        public Outer.Builder2 newBuilder() { return null; }
     }
 
     public static abstract class M2 implements MyBase {
